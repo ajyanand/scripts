@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #find will search for all directories in the current directory
 #depth options to stay within 1 level
 #type d to only find directories
