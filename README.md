@@ -9,4 +9,4 @@ Run bash scripts in the mounted folder from the windows system
 
 To start WSL after install:
 
-run wsl in command prompt or powershell
+run wsl in command prompt or powershell (running bash also seems to work)
