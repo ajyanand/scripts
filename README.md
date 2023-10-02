@@ -10,3 +10,8 @@ Run bash scripts in the mounted folder from the windows system
 To start WSL after install:
 
 run wsl in command prompt or powershell (running bash also seems to work)
+
+
+# Disable mouse acceleration in Ubuntu linux 
+
+add the 50-mouse-acceleration.conf file to /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
