@@ -6,7 +6,7 @@ Used to clone all the code repositories under a github user or organization.
 
 Run cloneAllUserRepos.bash in the directory you want to clone all the repositories of the github user or organization you want to clone from. 
 
-#Update All Repositories
+# Update All Repositories
 run updateAllReposSubdir.bash in the parent directory to recursively git pull all of the subdirectories
 
 # Windows Setup
