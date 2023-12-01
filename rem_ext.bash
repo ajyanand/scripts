@@ -1,6 +1,6 @@
-read 'enter extension to remove' old
-for oldname in *.$old ; do
-    newname="${oldname%%.$old}"
+read -p 'enter extension to remove' oldext
+for oldname in *.$oldext ; do
+    newname="${oldname%%.$oldext}"
     if [ -e "$newname" ] ; then
         echo "Cannot rename $oldname because $newname exists." >&2
     else
